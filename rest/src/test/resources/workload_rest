@@ -45,10 +45,10 @@ maxexecutiontime=72000
 #	Custom Properties
 # url.prefix=http://127.0.0.1:PORT/webService/rest/resource/
 url.prefix=http://localhost:7020/api/kv/
-url.trace.read=/mnt/ssd/haoran/types_proj/benchmarks/YCSB/rest/src/test/resources/bigtrace.ltxt
-url.trace.insert=/mnt/ssd/haoran/types_proj/benchmarks/YCSB/rest/src/test/resources/bigtrace.ltxt
-url.trace.update=/mnt/ssd/haoran/types_proj/benchmarks/YCSB/rest/src/test/resources/bigtrace.ltxt
-url.trace.delete=/mnt/ssd/haoran/types_proj/benchmarks/YCSB/rest/src/test/resources/bigtrace.ltxt
+url.trace.read=/mnt/ssd/haoran/types_proj/benchmarks/myYCSB/rest/src/test/resources/bigtrace.ltxt
+url.trace.insert=/mnt/ssd/haoran/types_proj/benchmarks/myYCSB/rest/src/test/resources/bigtrace.ltxt
+url.trace.update=/mnt/ssd/haoran/types_proj/benchmarks/myYCSB/rest/src/test/resources/bigtrace.ltxt
+url.trace.delete=/mnt/ssd/haoran/types_proj/benchmarks/myYCSB/rest/src/test/resources/bigtrace.ltxt
 # Header must be separated by space. Other delimiters might occur as header values and hence can not be used.
 headers=Accept */* Accept-Language en-US,en;q=0.5 Content-Type application/x-www-form-urlencoded user-agent Mozilla/5.0 Connection close
 timeout.con=6000
